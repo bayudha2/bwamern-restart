@@ -1,0 +1,184 @@
+{
+  "hero": {
+    "travelers": 80409,
+    "treasures": 882,
+    "cities": 1492
+  },
+  "mostPicked": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Blue Origin Fams",
+      "type": "Apartement",
+      "imageUrl": "/images/image-mostpicked-1.jpg",
+      "country": "Indonesia",
+      "city": "Jakarta",
+      "price": "50",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Samanda House",
+      "type": "Apartement",
+      "imageUrl": "/images/image-mostpicked-2.jpg",
+      "country": "Indonesia",
+      "city": "Bandung",
+      "price": "60",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Cozy House",
+      "type": "Apartement",
+      "imageUrl": "/images/image-mostpicked-3.jpg",
+      "country": "Indonesia",
+      "city": "Malang",
+      "price": "60",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Paradise Cone",
+      "type": "Apartement",
+      "imageUrl": "/images/image-mostpicked-4.jpg",
+      "country": "Indonesia",
+      "city": "Surabaya",
+      "price": "45",
+      "unit": "night"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Brick Union",
+      "type": "Apartement",
+      "imageUrl": "/images/image-mostpicked-5.jpg",
+      "country": "Indonesia",
+      "city": "Semarang",
+      "price": "30",
+      "unit": "night"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "House with backyard",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Green Cottage",
+          "imageUrl": "images/image-category-1.jpg",
+          "country": "Indonesia",
+          "city": "Magelang",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Villa Inn",
+          "imageUrl": "images/image-category-2.jpg",
+          "country": "Indonesia",
+          "city": "Yogyakarta",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Oyo House",
+          "imageUrl": "images/image-category-3.jpg",
+          "country": "Indonesia",
+          "city": "Banten",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "KijuVille",
+          "imageUrl": "images/image-category-4.jpg",
+          "country": "Indonesia",
+          "city": "Bali",
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Hotel with large livingroom",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "White Spark",
+          "imageUrl": "images/image-category-5.jpg",
+          "country": "Indonesia",
+          "city": "Makasar",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Crystal Cane",
+          "imageUrl": "images/image-category-6.jpg",
+          "country": "Indonesia",
+          "city": "Kudus",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Silver Rain",
+          "imageUrl": "images/image-category-7.jpg",
+          "country": "Indonesia",
+          "city": "Madiun",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Sporo Wind",
+          "imageUrl": "images/image-category-8.jpg",
+          "country": "Indonesia",
+          "city": "Sriwijaya",
+          "isPopular": true
+        }
+      ]
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Apartements with kitchen set",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Davour Ring",
+          "imageUrl": "images/image-category-9.jpg",
+          "country": "Indonesia",
+          "city": "Batam",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Fancy Sort",
+          "imageUrl": "images/image-category-10.jpg",
+          "country": "Indonesia",
+          "city": "Bogor",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Mogavill",
+          "imageUrl": "images/image-category-11.jpg",
+          "country": "Indonesia",
+          "city": "Padang",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Downy Hill",
+          "imageUrl": "images/image-category-12.jpg",
+          "country": "Indonesia",
+          "city": "Lampung",
+          "isPopular": true
+        }
+      ]
+    }
+  ],
+  "testimonial": {
+    "_id": "asd1293uasdads1",
+    "imageUrl": "/images/testimonial-landingpages.jpg",
+    "name": "Happy Family",
+    "rate": 4.5,
+    "content": "What a great trip with my family and i should try again next time soon ...",
+    "familyName": "Bayu",
+    "familyOccupation": "Developer"
+  }
+}

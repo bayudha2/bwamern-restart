@@ -1,0 +1,13 @@
+{
+  "duration": "2",
+  "price": "240",
+  "bookingDateStart": "new Date()",
+  "bookingDateEnd": "new Date()",
+  "firstName": "Bayu",
+  "lastName": "Aji",
+  "emailAdress": "bayudha.bd@gmail.com",
+  "phoneNumber": "082222217661",
+  "accountHolder": "Bayu Aji",
+  "bankFrom": "BCA",
+  "proofPayment": "FileData()"
+}
