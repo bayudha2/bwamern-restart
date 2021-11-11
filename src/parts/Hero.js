@@ -1,19 +1,16 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 
-import ImageHero from "assets/images/image-hero.jpg";
-import ImageHero_ from "assets/images/image-hero-frame.jpg";
-import IconCities from "assets/images/icons/icon-cities.svg";
-import IconTraveler from "assets/images/icons/icon-traveler.svg";
-import IconTreasure from "assets/images/icons/icon-treasure.svg";
+import ImageHero from 'assets/images/image-hero.jpg';
+import ImageHero_ from 'assets/images/image-hero-frame.jpg';
 
-import numberFormat from "utils/formatNumber";
-import Button from "elements/Button";
+import numberFormat from 'utils/formatNumber';
+import Button from 'elements/Button';
 export default function Hero(props) {
   function showMostPicked() {
     window.scrollTo({
       top: props.refMostPicked.current.offsetTop - 30,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   }
 
@@ -29,7 +26,7 @@ export default function Hero(props) {
             </h1>
             <p
               className="mb-4 font-weight-light text-gray-500 w-75"
-              style={{ lineHeight: "170%" }}
+              style={{ lineHeight: '170%' }}
             >
               We provide what you need to enjoy your holiday with your beloved.
               Time to make another memorable moments with them.
@@ -48,11 +45,11 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTraveler}
+                  src="/images/icon-traveler.svg"
                   alt={`${props.data.travelers} Travelers`}
                 />
                 <h6 className="mt-3">
-                  {numberFormat(props.data.travelers)}{" "}
+                  {numberFormat(props.data.travelers)}{' '}
                   <span className="text-gray-500 font-weight-light">
                     Travelers
                   </span>
@@ -62,11 +59,11 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconTreasure}
+                  src="/images/icon-treasure.svg"
                   alt={`${props.data.treasures} Treasures`}
                 />
                 <h6 className="mt-3">
-                  {numberFormat(props.data.treasures)}{" "}
+                  {numberFormat(props.data.treasures)}{' '}
                   <span className="text-gray-500 font-weight-light">
                     Treasures
                   </span>
@@ -76,11 +73,11 @@ export default function Hero(props) {
                 <img
                   width="36"
                   height="36"
-                  src={IconCities}
+                  src="/images/icon-cities.svg"
                   alt={`${props.data.cities} Cities`}
                 />
                 <h6 className="mt-3">
-                  {numberFormat(props.data.cities)}{" "}
+                  {numberFormat(props.data.cities)}{' '}
                   <span className="text-gray-500 font-weight-light">
                     Cities
                   </span>
@@ -95,13 +92,13 @@ export default function Hero(props) {
                 src={ImageHero}
                 alt="Room with Couches"
                 className="img-fluid position-absolute"
-                style={{ margin: "-30px 0 0 -30px", zIndex: 1 }}
+                style={{ margin: '-30px 0 0 -30px', zIndex: 1 }}
               />
               <img
                 src={ImageHero_}
                 alt="Room with Couches frame"
                 className="img-fluid position-absolute"
-                style={{ margin: "0 -15px -15px 0" }}
+                style={{ margin: '0 -15px -15px 0' }}
               />
             </div>
           </div>

@@ -1,8 +1,8 @@
-import React from "react";
-import Star from "elements/Star";
-import Button from "elements/Button";
+import React from 'react';
+import Star from 'elements/Star';
+import Button from 'elements/Button';
 
-import TestimonyAccent from "assets/images/testimonial-landingpages-frame.jpg";
+import TestimonyAccent from 'assets/images/testimonial-landingpages-frame.jpg';
 
 export default function Testimony({ data }) {
   return (
@@ -11,7 +11,7 @@ export default function Testimony({ data }) {
         <div className="col-auto" style={{ marginRight: 70 }}>
           <div className="testimonial-hero" style={{ margin: `30px 0 0 30px` }}>
             <img
-              src={data.imageUrl}
+              src={`${process.env.REACT_APP_HOST}${data.imageUrl}`}
               alt="Testimonial"
               className="position-absolute"
               style={{ zIndex: 1 }}

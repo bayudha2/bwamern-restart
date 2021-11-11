@@ -1,0 +1,147 @@
+{
+  "_id": "asd1293uasdads1",
+  "name": "Blue Origin Fams",
+  "type": "Apartement",
+  "imageUrls": [
+    {
+      "_id": "asd1293uasdads1",
+      "url": "/images/img-featured-1.jpg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "url": "/images/img-featured-2.jpg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "url": "/images/img-featured-3.jpg"
+    }
+  ],
+  "country": "Indonesia",
+  "city": "Bogor",
+  "price": "52",
+  "unit": "night",
+  "isPopular": true,
+  "hasBackyard": true,
+  "description": "<p>Minimal techno is a minimalist subgenre of techno music. It is characterized by a stripped-down aesthetic that exploits the use of repetition and understated development. Minimal techno is thought to have been originally developed in the early 1990s by Detroit-based producers Robert Hood and Daniel Bell.</p><p>Such trends saw the demise of the soul-infused techno that typified the original Detroit sound. Robert Hood has noted that he and Daniel Bell both realized something was missing from techno in the post-rave era.</p><p>Design is a plan or specification for the construction of an object or system or for the implementation of an activity or process, or the result of that plan or specification in the form of a prototype, product or process. The verb to design expresses the process of developing a design.</p>",
+  "features": [
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "3",
+      "name": "bedroom",
+      "imageUrl": "/images/icon-bedroom.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "1",
+      "name": "livingroom",
+      "imageUrl": "/images/icon-livingroom.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "2",
+      "name": "bathroom",
+      "imageUrl": "/images/icon-bathroom.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "1",
+      "name": "diningroom",
+      "imageUrl": "/images/icon-diningroom.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "10",
+      "name": "mbps",
+      "imageUrl": "/images/icon-wifi.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "2",
+      "name": "units ready",
+      "imageUrl": "/images/icon-ac.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "2",
+      "name": "refrigrator",
+      "imageUrl": "/images/icon-refrigerator.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "1",
+      "name": "television",
+      "imageUrl": "/images/icon-tv.svg"
+    }
+  ],
+  "activities": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Kebun park",
+      "type": "Nature",
+      "imageUrl": "/images/categoryItem1.png"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Water land",
+      "type": "Pool",
+      "imageUrl": "/images/categoryItem2.png"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Kebun park",
+      "type": "Nature",
+      "imageUrl": "/images/categoryItem1.png"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "name": "Water land",
+      "type": "Pool",
+      "imageUrl": "/images/categoryItem2.png"
+    }
+  ],
+  "categories": [
+    {
+      "_id": "asd1293uasdads1",
+      "name": "House with backyard",
+      "items": [
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Kebun park",
+          "city": "Nature",
+          "imageUrl": "/images/treasure-1.jpg",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Water land",
+          "city": "Pool",
+          "imageUrl": "/images/treasure-2.jpg",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Kebun park",
+          "city": "Nature",
+          "imageUrl": "/images/treasure-3.jpg",
+          "isPopular": false
+        },
+        {
+          "_id": "asd1293uasdads1",
+          "name": "Water land",
+          "city": "Pool",
+          "imageUrl": "/images/treasure-4.jpg",
+          "isPopular": true
+        }
+      ]
+    }
+  ],
+  "testimonial": {
+    "_id": "asd1293uasdads1",
+    "imageUrl": "/images/testimonial-detailspage.jpg",
+    "name": "Happy Family",
+    "rate": 4.5,
+    "content": "As a husband i can make happy moments with my family ... ",
+    "familyName": "Joko",
+    "familyOccupation": "Engineer"
+  }
+}
